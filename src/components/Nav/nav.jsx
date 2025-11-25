@@ -155,7 +155,7 @@ const count=useSelector(state=>{
 
       <div className="nav1">
         <div className="nav2">
-          <h3 onClick={() => { nav('/allproducts'); }}>Revoo</h3>
+          <h3 onClick={() => { nav('/allproducts'); }}>Revooo</h3>
         </div>
          <div className="navs">
         <div className="nav4">
