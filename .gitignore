@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+node_modules/
+public/
+src/components/PrivateRoutes/
+src/utils/
