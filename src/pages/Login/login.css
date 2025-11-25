@@ -1,0 +1,132 @@
+.login1 {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.login2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-attachment: scroll;
+  border-radius: 10px;
+  opacity: 0.7;
+  margin: 10px;
+}
+
+.login3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 0px 7px 2px black;
+  width: 400px;
+  border-radius: 10px;
+  padding: 30px 0;
+}
+
+.login3 h3 {
+  animation: textBlink 1.5s infinite;
+  text-align: center;
+}
+
+@keyframes textBlink {
+  0% { color: red; }
+  25% { color: orange; }
+  50% { color: black; }
+  75% { color: limegreen; }
+  100% { color: deepskyblue; }
+}
+
+.login3 input {
+  height: 40px;
+  border: none;
+  background-color: rgb(237, 232, 232);
+  border-radius: 8px;
+  margin-top: 25px;
+  width: 300px;
+  padding: 0 10px;
+}
+
+.password-container {
+  position: relative;
+  width: 300px;
+  margin-top: 25px;
+}
+.email-container{
+   position: relative;
+  width: 300px;
+  margin-top: 25px;
+}
+.email-container input{
+   height: 40px;
+  width: 100%;
+  border: none;
+  background-color: rgb(237, 232, 232);
+  border-radius: 8px;
+  padding: 0 40px 0 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.password-container input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  background-color: rgb(237, 232, 232);
+  border-radius: 8px;
+  padding: 0 40px 0 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 12px;
+  top: 69%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: gray;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.eye-icon:hover {
+  color: #9f2089;
+}
+
+.login3 button {
+  text-align: center;
+  background-color: blue;
+  color: white;
+  height: 40px;
+  border: none;
+  width: 100px;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login3 button:hover {
+  background-color: grey;
+}
+
+.login3 button:active {
+  transform: scale(0.95);
+}
+
+.login3 p {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.login4 {
+  text-align: center;
+  color: red;
+  margin-top: 15px;
+}
+
